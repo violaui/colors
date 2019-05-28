@@ -23,6 +23,6 @@ $ yarn add @violacss/colors --dev
 __and the CDN link is:__
 
 ```html
-<link href="https://unpkg.com/@violacss/colors@0.2.0/css/colors.min.css" rel="stylesheet">
+<link href="https://unpkg.com/@violacss/colors@0.2.1/css/colors.min.css" rel="stylesheet">
 ```
 

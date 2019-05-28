@@ -3,3 +3,5 @@
 .travis.yml
 node_modules/
 webpack.*
+css/*.js
+css/*.js.map
