@@ -1,0 +1,16 @@
+=set-color($prefix, $attr, $color-name, $color)
+	.#{get-color-selector($prefix,$color-name)}
+		#{$attr}: $color
+	@if mixin-exists("rtl")
+		.#{get-color-selector($prefix,$color-name)}
+			+rtl
+				#{$attr}: $color
+
+=color($name, $color)
+	+set-color(null, color, $name, $color)
+
+=background-color($name, $color)
+	+set-color(bg, background-color, $name, $color)
+
+=border-color($name, $color)
+	+set-color(br, border-color, $name, $color)

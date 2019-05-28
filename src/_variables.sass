@@ -37,3 +37,14 @@ $blue: #2f54eb !default
 $purple: #722ed1 !default
 $magenta: #eb2f96 !default
 $black: #000000 !default
+
+$whites: (white-t-1: $white-t-1, white-t-2: $white-t-2, white-t-3: $white-t-3, white-t-4: $white-t-4, white-t-5: $white-t-5, white-t-6: $white-t-6, white-t-7: $white-t-7, white-t-8: $white-t-8) !default
+$grays: (gray-1: $gray-1, gray-2: $gray-2, gray-3: $gray-3, gray-4: $gray-4, gray-5: $gray-5, gray-6: $gray-6, gray-7: $gray-7, gray-8: $gray-8) !default
+$blacks: (black-t-1: $black-t-1, black-t-2: $black-t-2, black-t-3: $black-t-3, black-t-4: $black-t-4, black-t-5: $black-t-5, black-t-6: $black-t-6, black-t-7: $black-t-7, black-t-8: $black-t-8) !default
+$rainbow: (white: #ffffff, red: #f5222d, dark-orange: #fa541c, orange: #fa8c16, gold: #faad14, yellow: #fadb14, light-green: #a0d911, green: #52c41a, cyan: #13c2c2, light-blue: #1890ff, blue: #2f54eb, purple: #722ed1, magenta: #eb2f96, black: #000000) !default
+
+$colors: (transparent: $transparent)
+$colors: map_merge($colors, $whites)
+$colors: map_merge($colors, $grays)
+$colors: map_merge($colors, $blacks)
+$colors: map_merge($colors, $rainbow)

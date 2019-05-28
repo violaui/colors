@@ -1,1 +1,12 @@
 @import src/variables
+@import src/functions
+@import src/mixins
+
+@each $name, $color in $colors
+	+color($name, $color)
+
+@each $name, $color in $colors
+	+background-color($name, $color)
+
+@each $name, $color in $colors
+	+border-color($name, $color)
