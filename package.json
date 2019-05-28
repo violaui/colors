@@ -1,0 +1,27 @@
+{
+  "name": "@violacss/colors",
+  "version": "0.1.0",
+  "description": "Every color-related stuff of the Viola framework placed here",
+  "main": "colors.sass",
+  "repository": "https://github.com/violacss/colors.git",
+  "author": "amirhosseinab",
+  "license": "MIT",
+	"keywords": [
+		"css",
+		"scss",
+		"sass",
+		"functional-css",
+		"css-framework",
+		"responsive",
+		"design",
+		"style",
+		"rtl",
+		"bidirectional-css"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"browserslist": [
+		"last 2 versions"
+	]
+}
