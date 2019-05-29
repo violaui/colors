@@ -5,7 +5,6 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require("webpack");
 
-
 module.exports = {
   mode: "production",
   devtool: "source-map",
@@ -32,7 +31,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.sass$/,
+        test: /\.s(a|c)ss$/,
         exclude: [/node_modules/],
         use: [
           {loader: MiniCssExtractPlugin.loader, options: {sourceMap: true}},

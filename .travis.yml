@@ -5,8 +5,7 @@ cache: yarn
 deploy:
   provider: npm
   email: amirhosseinab@outlook.com
-  api_key:
-    secure: GpSVIxd0Zg8HPZci3e/UUlOZa3zlILnt5Ae8G5eZTdQOCio0Nof6FNS2wrdLCGkALe5k0dZFFf+06DNWhnu60KZyjvu2hKsnB+eOLj9yqYNu5euDXECRQmn+oz08mosof+/asCZ96fRh0AjbiU/kP9VVJnyeF/uHgHBFyuqc5brjykcvMvGrZaiThtjdYO5OARksfxDrhMgW+GriiQFnoymXGhgYgEuuLpJQqtg5cI+dOtvjo9ruRfFg2L8yg935WQ7LhPuoQe9oEAknoil/tigqLLF5cihpyX6SCedPd/02D+5phkBzcNye8WqClkLbqU5TmkJDu3qTVG8dQe7junB5y7ttukPvW0nqEYP+PIrPhUfGDnwFjsUVIbx5ilk/JDWSQQ8C/q1PWEvnLOCi/1+OJ687y8zSShn6Xkou2im+9ouwp3qgWJwuQZ0uJgTblmvcfrW+uM0+TdWj7dJkzXVQMUxlGd1ZB4HNQL8qw2j6xM492d/UVGKdUiNzSK+Ww9rY36VbTrzxNd1Tm80+RCskHdGVzGF1Vd4IHuLd+nqYa9vx+ddqTgudjlx7OIzMx2UL5hl7mSvXbpjbejj5+4frbDgxIctib/eTTdWMvWA3hkZvHRygn18unPd09MpWZwiO3Cl7zzWhRfPGHrb14HFFe0/vvd0BSbo0pPJc2tU=
+  api_key: 1
   on:
     tags: true
     branch: master

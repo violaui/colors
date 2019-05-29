@@ -7,11 +7,9 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.js]
+[*.{js, yml}]
 indent_style = space
 
-[*.yml]
-indent_style = space
 
 [*.md]
 trim_trailing_whitespace = false
